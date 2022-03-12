@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./DojoWeather.css">
+</head>
+<body>
+    <div class="nav-top">
+        <h1>DojoWeather</h1>
+        <p id="shoes" onclick="balloon()"><strong>Burbank</strong></p>
+        <p onclick="ball()"><strong>Chicago</strong></p>
+        <p onclick="bal()"><strong>Dallas</strong></p>
+    </div>
+    <div class="cityTemp">
+        <h1><em>San Jose</em></h1>
+        <p> <strong>show temperature in  <select class="tempSelect"></strong></p>
+            <option>Celcius</option>
+            <option>Farenheit</option>
+            <option>Kelvin</option>
+            <option>Rankine</option>
+        </select>    
+    </div>
+    <div class="imgwrap">
+        <div class="weatherImages">
+            <div class="Greybox">
+                <h1>Today</h1>
+                <img class="cloud" src="./assets/some_rain.png" alt="rain cloud">
+                <p>some rain</p>
+                <div class="w1">
+                    <span class="red">24°</span>
+                    <span class="blue">18°</span>
+                </div>
+            </div>
+        </div>
+        <div class="weatherImages">
+            <div class="Greybox">
+                <h1>Today</h1>
+                <img class="cloud" src="./assets/some_sun.png" alt="sun pic">
+                <p>some sun</p>
+                <div class="w1">
+                    <span class="red">27°</span>
+                    <span class="blue">19°</span>
+                </div>
+            </div>
+        </div>
+        <div class="weatherImages">
+            <div class="Greybox">
+                <h1>Today</h1>
+                <img class="cloud" src="./assets/some_clouds.png" alt="cloud pic">
+                <p>some clouds</p>
+                <div class="w1">
+                    <span class="red">21°</span>
+                    <span class="blue">16°</span>
+                </div>
+            </div>
+        </div>
+        <div class="weatherImages">
+            <div class="Greybox">
+                <h1>Today</h1>
+                <img class="cloud" src="./assets/some_sun.png" alt="sun pic">
+                <p>some sun</p>
+                <div class="w1">
+                    <span class="red">26°</span>
+                    <span class="blue">21°</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cookies">
+        <h1 class="stop">Stop! Cookie time</h1>
+        <div class="alsoCookies">    
+            <img src="./assets/cookie.png" alt="cookie pic">
+            <p class="cp">We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more</a></p>
+            <button onclick="remove('cookies')" class="btn">I Accept</button>
+        </div>
+    </div>
+
+    <script src="./DojoWeather.js"></script>
+</body>
+</html>
